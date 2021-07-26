@@ -1,0 +1,54 @@
+.home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  background-color: #efefef;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+}
+.introduction {
+  max-width: 60%;
+  padding: 3rem;
+  text-align: right;
+}
+
+.introduction h3 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  font-weight: 400;
+}
+
+.introduction h3 span {
+  font-weight: 700;
+}
+
+.introduction p {
+  font-size: 1.5rem;
+  margin-bottom: 10rem;
+}
+
+.introduction a {
+  padding: 0.5rem 1.5rem;
+  border-radius: 1.5rem;
+  background-color: #f08345;
+  box-shadow: 0 4px 80px #f09745;
+  text-decoration: none;
+  color: #efefef;
+  margin-top: 5rem;
+  font-size: 1.2rem;
+}
+
+.introduction-image {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://i.ibb.co/RyxMXDd/dog-cat-stock-photos.png");
+  background-size: auto 85%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}

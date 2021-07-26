@@ -1,5 +1,5 @@
 import { Route, Link } from "react-router-dom";
-import Home from "./Home";
+import Home from "./Home/Home";
 import InicioSesion from "./InicioSesion/InicioSesion";
 import Registro from "./Registro";
 import Galeria from "./Galeria/Galeria";
